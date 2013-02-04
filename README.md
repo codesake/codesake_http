@@ -1,6 +1,7 @@
-# CodesakeHttpVerbEvaluate
+# Codesake Http Verb Evaluate
 
-TODO: Write a gem description
+Sometimes web servers are configured allowing a wide range of HTTP verbs an
+attacker can use to upload arbitrary content defacing the site.
 
 ## Installation
 
