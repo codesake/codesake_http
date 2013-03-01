@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'codesake_http_verb_evaluate/version'
+require 'codesake/http/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "codesake_http_verb_evaluate"
-  gem.version       = CodesakeHttpVerbEvaluate::VERSION
+  gem.name          = "codesake_http"
+  gem.version       = Codesake::HTTP::VERSION
   gem.authors       = ["Paolo Perego"]
   gem.email         = ["thesp0nge@gmail.com"]
   gem.description   = %q{TODO: Write a gem description}
